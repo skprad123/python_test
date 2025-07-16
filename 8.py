@@ -31,6 +31,7 @@ class Solution:
             return max(int_min, neg*num)
         else: 
             return min(int_max, num)
+            print("hello")
 
 s = Solution()
 print(s.myAtoi(''))
